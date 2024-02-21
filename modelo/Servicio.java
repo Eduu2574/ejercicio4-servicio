@@ -12,6 +12,10 @@ public abstract class Servicio {
         this.cliente = cliente;
     }
 
+    public Servicio(String cliente2) {
+        //TODO Auto-generated constructor stub
+    }
+
     public abstract double costeMaterial();
 
     public abstract double costeManoObra();
